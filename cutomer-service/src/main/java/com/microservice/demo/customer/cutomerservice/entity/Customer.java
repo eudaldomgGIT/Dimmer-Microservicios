@@ -22,7 +22,7 @@ public class Customer implements Serializable {
     @Column(name = "number_id", unique = true, length = 8, nullable = false)
     private String numberID;
     @NotEmpty(message = "El nombre no puede ser vacio")
-    @Column(name = "firts_name", nullable = false)
+    @Column(name = "first_name", nullable = false)
     private String firstName;
     @NotEmpty(message = "El apellido no puede ser vacio")
     @Column(name = "last_name", nullable = false)
